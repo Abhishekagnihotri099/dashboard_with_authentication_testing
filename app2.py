@@ -85,6 +85,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Function to fetch data from the claims table
+@st.cache_data
 def fetch_claims_data():
     try:
         # Load data from CSV for now
