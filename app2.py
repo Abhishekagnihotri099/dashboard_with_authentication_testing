@@ -442,33 +442,33 @@ def dashboard1():
 
 def dashboard2():
     dashboard1()
-    if st.button("Go Back to Home", key="go_back_home_2"):
-        st.session_state["current_page"] = "home"
-        st.rerun()
+    # if st.button("Go Back to Home", key="go_back_home_2"):
+    #     st.session_state["current_page"] = "home"
+    #     st.rerun()
 
 def dashboard3():
     dashboard1()
-    if st.button("Go Back to Home", key="go_back_home_3"):
-        st.session_state["current_page"] = "home"
-        st.rerun()
+    # if st.button("Go Back to Home", key="go_back_home_3"):
+    #     st.session_state["current_page"] = "home"
+    #     st.rerun()
 
 def dashboard4():
     dashboard1()
-    if st.button("Go Back to Home", key="go_back_home_4"):
-        st.session_state["current_page"] = "home"
-        st.rerun()
+    # if st.button("Go Back to Home", key="go_back_home_4"):
+    #     st.session_state["current_page"] = "home"
+    #     st.rerun()
 
 def dashboard5():
     dashboard1()
-    if st.button("Go Back to Home", key="go_back_home_5"):
-        st.session_state["current_page"] = "home"
-        st.rerun()
+    # if st.button("Go Back to Home", key="go_back_home_5"):
+    #     st.session_state["current_page"] = "home"
+    #     st.rerun()
 
 def dashboard6():
     dashboard1()
-    if st.button("Go Back to Home", key="go_back_home_6"):
-        st.session_state["current_page"] = "home"
-        st.rerun()
+    # if st.button("Go Back to Home", key="go_back_home_6"):
+    #     st.session_state["current_page"] = "home"
+    #     st.rerun()
 
 # Home Page with Metric Cards
 def home_page():
