@@ -441,36 +441,31 @@ def dashboard1():
        
 
 def dashboard2():
-    st.title("Dashboard 2")
-    st.write("Content of Dashboard 2.")
+    dashboard1()
     if st.button("Go Back to Home", key="go_back_home_2"):
         st.session_state["current_page"] = "home"
         st.rerun()
 
 def dashboard3():
-    st.title("Dashboard 3")
-    st.write("Content of Dashboard 3.")
+    dashboard1()
     if st.button("Go Back to Home", key="go_back_home_3"):
         st.session_state["current_page"] = "home"
         st.rerun()
 
 def dashboard4():
-    st.title("Dashboard 4")
-    st.write("Content of Dashboard 4.")
+    dashboard1()
     if st.button("Go Back to Home", key="go_back_home_4"):
         st.session_state["current_page"] = "home"
         st.rerun()
 
 def dashboard5():
-    st.title("Dashboard 5")
-    st.write("Content of Dashboard 5.")
+    dashboard1()
     if st.button("Go Back to Home", key="go_back_home_5"):
         st.session_state["current_page"] = "home"
         st.rerun()
 
 def dashboard6():
-    st.title("Dashboard 6")
-    st.write("Content of Dashboard 6.")
+    dashboard1()
     if st.button("Go Back to Home", key="go_back_home_6"):
         st.session_state["current_page"] = "home"
         st.rerun()
